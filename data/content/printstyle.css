@@ -1,0 +1,28 @@
+body{
+    background-color:#fff;
+    font-family:'Segoe UI',Arial;
+    font-size:smaller;
+}
+
+div{
+    margin:5px;
+    padding:5px;
+    background-color:#F0F2F2;
+}
+
+table{
+    border-collapse:collapse;
+}
+
+td{
+    border-collapse:collapse;
+    border:1px solid #808080;
+    padding:3px;
+    background-color:#f7ffff;
+    font-size:10px;
+}
+
+input[type="text"] {
+    width: 80px;
+    text-align:center;
+}

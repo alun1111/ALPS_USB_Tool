@@ -1,0 +1,271 @@
+<!doctype html>
+<html>
+<head>
+    <title>OSFC Alps Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./scripts/jquery-1.10.2.min.js"></script>
+    <script src="./scripts/lib.js"></script>
+    <script src="./scripts/jquery.PrintArea.js"></script>
+    <script>
+
+        // GLOBAL variables
+        var ucas, pointbands, totalUCAS, avgAPS, totalPredUCAS, ALPSscore, alpsGrades;
+        var crstype, crsid, crstitle; // Course info
+        var chosencourse;
+        var allstudents = new Array();
+        var validgrades = new Array();
+        var filteredstudents = new Array();
+        var courses = new Array();
+        var targetlist = new Array();
+        var pgradelist = new Array();
+        var pgrade1list = new Array();
+        var pgrade2list = new Array();
+        var pgrade3list = new Array();
+        //var pgrade4list = new Array();
+        //var pgrade5list = new Array();
+
+        $(document).ready(function () {
+
+            // ----------------------------------------------------------------------------------
+            // Code for printing in a reduced format --------------------------------------------
+
+            // Hide print only fields
+            $('#printscores').hide();
+
+            // On-click code for print link
+            $('#printlink').attr('href', 'javascript:void( 0 )')
+                .click(function () {
+                    // Show print-only paragraph with ALPS scores in and set to the displayed values
+                    $('#printscores').show();
+                    $('#ALPSscore_print').text($('#ALPSscore').text());
+                    $('#ALPSgrade_print').text($('#ALPSgrade').text());
+
+                    //Use print stylesheet
+                    var headElements = '<link rel="stylesheet" href="./printstyle.css">';
+
+                    // Print library function
+                    var options = { extraHead: headElements };
+                    var print = "div.printarea";
+                    $(print).printArea(options);
+
+                    // Hide print only fields again
+                    $('#printscores').hide();
+
+                    // Cancel click event.
+                    return (false);
+                });
+            // ----------------------------------------------------------------------------------
+            // Get JSON data assets and assign to global objects --------------------------------
+
+            $.getJSON("./data/ucasPointBands.json", function (data) {
+                pointbands = data;
+            });
+            $.getJSON("./data/alpsGrades.json", function (data) {
+                alpsGrades = data;
+            });
+            $.getJSON("./data/ucasGradePoints.json", function (data) {
+                ucas = data;
+                $.getJSON("./data/students.json", function (data) {
+
+                        // TODO data decode function!
+
+                        // Get a distinct list of course id's then use them to fill the course selection box
+                        // Uses course array to do this, not used after?
+                        for (var i = 0; i < data.length; i++) {
+                            if ($.inArray(data[i].csid, courses) == -1) {
+
+                                courses.push(data[i].csid);
+                                $('#chosencourse')
+                                    .append($("<option></option>")
+                                    .attr("value", data[i].csid)
+                                    .attr("id", data[i].csid)
+                                    .text(data[i].title.trim() + " (" + data[i].csid.trim() + ")"));
+                            };
+                        };
+
+                        // Choose the first course by default on first load
+                        chosencourse = courses[0];
+
+                        // Assign the whole student list (multiple courses) to a global object
+                        allstudents = data;
+
+                        // Filter the big list down to just the selected course
+                        filteredstudents = getFilteredStudentList(chosencourse, data);
+
+                        // Get soem details about the selected course from the filtered list
+                        crstype = filteredstudents[0].type;
+                        crsid = filteredstudents[0].csid.trim();
+                        crstitle = filteredstudents[0].title;
+
+                        //Generate list of valid grades for this course type
+                        for (var i = 0; i < ucas.length; i++) {
+                            if (crstype == ucas[i].type) {
+                                validgrades.push(ucas[i].grade);
+                            };
+                        };
+
+                        // For each row in filtered list, add grade from each column to array for use later
+                        $.each(filteredstudents, function (i, item) {
+                            targetlist.push(item.target);
+                            pgradelist.push(item.pgrade);
+                            pgrade1list.push(item.pgrade1);
+                            pgrade2list.push(item.pgrade2);
+                            pgrade3list.push(item.pgrade3);
+                            //pgrade4list.push(item.pgrade4);
+                            //pgrade5list.push(item.pgrade5);
+                        });
+
+                        // Draw the student table from the filtered list and populate texboxes with the target grades array
+                        drawTable(filteredstudents, targetlist, validgrades);
+
+                })
+            });
+
+            // ----------------------------------------------------------------------------------
+            // ----------------------------------------------------------------------------------
+
+            // ----------------------------------------------------------------------------------
+            // Click events ---------------------------------------------------------------------
+
+            // Event when column header buttons clicked
+            $('.calcALPS').click(function () {
+
+                // Populate fields to show which column the alps cacl is showing for
+                $('#ALPSfor').text($(this).attr("id"));
+                $('#ALPSfor_print').text($(this).attr("id"));
+
+                // Find which column was clicked and draw the student table accordingly
+                // second var passed to function is the uses array generated above
+                if ($(this).attr("id") == "target") {
+                    drawTable(getFilteredStudentList(chosencourse, allstudents), targetlist, validgrades);
+                } else if ($(this).attr("id") == "pgrade") {
+                    drawTable(getFilteredStudentList(chosencourse, allstudents), pgradelist, validgrades);
+                } else if ($(this).attr("id") == "pgrade1") {
+                    drawTable(getFilteredStudentList(chosencourse, allstudents), pgrade1list, validgrades);
+                } else if ($(this).attr("id") == "pgrade2") {
+                    drawTable(getFilteredStudentList(chosencourse, allstudents), pgrade2list, validgrades);
+                } else if ($(this).attr("id") == "pgrade3") {
+                    drawTable(getFilteredStudentList(chosencourse, allstudents), pgrade3list, validgrades);
+                //} else if ($(this).attr("id") == "pgrade4") {
+                //    drawTable(getFilteredStudentList(chosencourse, allstudents), pgrade1list, validgrades);
+                //} else if ($(this).attr("id") == "pgrade5") {
+                //    drawTable(getFilteredStudentList(chosencourse, allstudents), pgrade1list, validgrades);
+                };
+
+                // Get the values from teh now-drawn student list textboxes
+                var table = $('#my_form').serializeArray();
+
+                // All the functions required for calculating ALPS (plus avg aps)
+                totalActualUCAS = getTotalActualUCAS(table, ucas, crstype);
+                avgAPS = getAvgAPS(filteredstudents);
+                totalPredUCAS = getTotalPredUCAS(filteredstudents, pointbands, crstype);
+                numValidStudents = getNumValidStudents(filteredstudents, table);
+                ALPSscore = getALPSscore(totalActualUCAS, totalPredUCAS, numValidStudents, crstype)
+                ALPSgrade = getALPSgrade(ALPSscore.toFixed(2), alpsGrades, crsid);
+
+                // Assign the values to p elements on page for display
+                $('#numStudents').text(numValidStudents);
+                $('#totalActualUCAS').text(totalActualUCAS.toFixed(2));
+                $('#avgAPS').text(avgAPS.toFixed(2));
+                $('#ALPSgrade').text(ALPSgrade);
+                $('#totalPredUCAS').text(totalPredUCAS.toFixed(2));
+                $('#ALPSscore').text(ALPSscore.toFixed(2));
+                $('#crstype').text(crstype);
+                $('#crstitle').text(crstitle);
+            });
+
+            // Event for when selected course has changed
+            $('#chosencourse').change(function () {
+
+                // Get the chosen value then re-filter the allstudents global list var
+                chosencourse = $('#chosencourse').val();
+                filteredstudents = getFilteredStudentList(chosencourse, allstudents);
+
+                // Get the new course info for this selection from the list
+                crstype = filteredstudents[0].type;
+                crsid = filteredstudents[0].csid.trim();
+                crstitle = filteredstudents[0].title;
+
+
+                //Generate list of valid grades for this course type (after clearing current validgrades
+                validgrades.length = 0;
+                for (var i = 0; i < ucas.length; i++) {
+                    if (crstype == ucas[i].type) {
+                        validgrades.push(ucas[i].grade);
+                    };
+                };
+
+                // Clear the grade arrays or trouble happens!
+                targetlist.length = 0;
+                pgradelist.length = 0;
+                pgrade1list.length = 0;
+                pgrade2list.length = 0;
+                pgrade3list.length = 0;
+
+                // Rebuild the grade arrays based on the new filtered data
+                $.each(filteredstudents, function (i, item) {
+                    targetlist.push(item.target);
+                    pgradelist.push(item.pgrade);
+                    pgrade1list.push(item.pgrade1);
+                    pgrade2list.push(item.pgrade2);
+                    pgrade3list.push(item.pgrade3);
+                    //pgrade4list.push(item.pgrade4);
+                    //pgrade5list.push(item.pgrade5);
+                });
+
+                // Draw the new student table from filtered list
+                drawTable(filteredstudents, targetlist, validgrades);
+
+                // Run the target button click automatically to populate alps data
+                $('#target').click();
+            });
+        });
+    </script>
+</head>
+<body>
+        <div>
+            <h1>ALPS Grade Calculation for:</h1>
+            <h3>Course type: <span id="crstype"></span></h3>
+            <h3>Course title: <span id="crstitle"></span></h3>
+            <h4><a href="#" id="printlink">Print</a></h4>
+        </div>
+        <div style="width:320px; float:left">
+            <p>Average APS: <span id="avgAPS"></span></p>
+            <p>Number of valid students: <span id="numStudents"></span></p>
+            <p>Total Predicted UCAS: <span id="totalPredUCAS"></span></p>
+            <p>Total UCAS: <span id="totalActualUCAS"></span></p>
+        </div>
+        <div style="width:320px; float:left">
+            <h2>ALPS score: <span id="ALPSscore"></span></h2>
+            <h2>ALPS Grade: <span id="ALPSgrade"></span></h2>
+            <h4>(Column = <span id="ALPSfor"></span>)</h4>
+        </div>
+    <div style="clear:left" class="printarea">
+        <form id="my_form">
+            <p>Select course: <select id="chosencourse"></select></p>
+            <p id="printscores" hidden>
+                ALPS for: <span id="ALPSfor_print"></span>
+                | ALPS score: <span id="ALPSscore_print"></span> 
+                | ALPS Grade: <span id="ALPSgrade_print"></span>
+
+            </p>
+            <table id="tableid">
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><button class="calcALPS" id="target" type="button">Target</button></td>
+                    <td style="text-align:center"><button class="calcALPS" id="pgrade" type="button">PGrade</button></td>
+                    <td style="text-align:center"><button class="calcALPS" id="pgrade1" type="button">PGrade 1</button></td>
+                    <td style="text-align:center"><button class="calcALPS" id="pgrade2" type="button">PGrade 2</button></td>
+                    <td style="text-align:center"><button class="calcALPS" id="pgrade3" type="button">PGrade 3</button></td>
+                    <!--<td style="text-align:center"><button class="calcALPS" id="pgrade4" type="button">PGrade 4</button></td>
+                    <td style="text-align:center"><button class="calcALPS" id="pgrade5" type="button">PGrade 5</button></td>-->
+                    <td style="text-align:center"><button class="calcALPS" id="myvals" type="button">My values</button></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>

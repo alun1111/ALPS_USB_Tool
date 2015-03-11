@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0f57264d-2151-4f5b-bac2-e7048d6bc94d}</ProjectGuid>
+    <ProjectHome />
+    <ProjectView>ProjectFiles</ProjectView>
+    <StartupFile>data\app.js</StartupFile>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <NodeExePath>C:\Users\aws\Documents\Visual Studio 2012\Projects\DistributableTargetGradesApp\RunALPStool.bat</NodeExePath>
+    <NodeExeArguments />
+    <ScriptArguments />
+    <NodejsPort />
+    <StartWebBrowser>True</StartWebBrowser>
+    <LaunchUrl />
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <ItemGroup>
+    <Compile Include="data\app.js" />
+    <Compile Include="data\content\scripts\jquery.PrintArea.js" />
+    <Compile Include="data\lib_data.js" />
+    <Content Include="data\content\data\alpsGrades.json" />
+    <Content Include="data\content\data\settings.json" />
+    <Content Include="data\content\data\students.json" />
+    <Content Include="data\content\data\ucasPointBands.json" />
+    <Content Include="data\content\data\ucasGradePoints.json" />
+    <Content Include="data\content\index.html" />
+    <Content Include="data\content\printstyle.css" />
+    <Content Include="data\content\style.css" />
+    <Content Include="data\content\icons\128.png" />
+    <Content Include="data\content\icons\16.png" />
+    <Content Include="data\content\icons\32.png" />
+    <Content Include="data\content\icons\64.png" />
+    <Content Include="data\node_modules\appjs\package.json" />
+    <Content Include="data\node_modules\appjs\README.md" />
+    <Content Include="data\node_modules\appjs-win32\package.json" />
+    <Content Include="data\node_modules\appjs-win32\README.md" />
+    <Content Include="data\node_modules\mime\package.json" />
+    <Content Include="data\node_modules\mime\README.md" />
+    <Compile Include="data\content\scripts\jquery-1.10.2.min.js" />
+    <Compile Include="data\content\scripts\lib.js" />
+    <Compile Include="data\node_modules\mime\mime.js" />
+    <Compile Include="data\node_modules\mime\test.js" />
+    <Compile Include="data\node_modules\appjs\cli\postinstall.js" />
+    <Compile Include="data\node_modules\appjs\lib\App.js" />
+    <Compile Include="data\node_modules\appjs\lib\bindings.js" />
+    <Compile Include="data\node_modules\appjs\lib\bridge.js" />
+    <Compile Include="data\node_modules\appjs\lib\browser-require.js" />
+    <Compile Include="data\node_modules\appjs\lib\handlers.js" />
+    <Compile Include="data\node_modules\appjs\lib\index.js" />
+    <Compile Include="data\node_modules\appjs\lib\menu.js" />
+    <Compile Include="data\node_modules\appjs\lib\settings.js" />
+    <Compile Include="data\node_modules\appjs\lib\utils.js" />
+    <Compile Include="data\node_modules\appjs\lib\window.js" />
+    <Compile Include="data\node_modules\appjs\examples\hello-world\app.js" />
+    <Content Include="data\node_modules\appjs\examples\hello-world\content\index.html" />
+    <Content Include="data\node_modules\appjs\examples\hello-world\content\style.css" />
+    <Content Include="data\node_modules\appjs\examples\hello-world\content\rainbowsky.jpg" />
+    <Content Include="data\node_modules\appjs\examples\hello-world\content\icons\128.png" />
+    <Content Include="data\node_modules\appjs\examples\hello-world\content\icons\16.png" />
+    <Content Include="data\node_modules\appjs\examples\hello-world\content\icons\32.png" />
+    <Content Include="data\node_modules\appjs\examples\hello-world\content\icons\64.png" />
+    <Compile Include="data\node_modules\appjs\lib\router\bodyParser.js" />
+    <Compile Include="data\node_modules\appjs\lib\router\index.js" />
+    <Compile Include="data\node_modules\appjs\lib\router\Request.js" />
+    <Compile Include="data\node_modules\appjs\lib\router\Response.js" />
+    <Compile Include="data\node_modules\appjs\lib\router\Router.js" />
+    <Compile Include="data\node_modules\appjs\lib\router\static-router.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="data" />
+    <Folder Include="data\content" />
+    <Folder Include="data\content\icons" />
+    <Folder Include="data\content\data\" />
+    <Folder Include="data\content\scripts\" />
+    <Folder Include="data\node_modules\" />
+    <Folder Include="data\node_modules\appjs" />
+    <Folder Include="data\node_modules\appjs\cli" />
+    <Folder Include="data\node_modules\appjs\examples\" />
+    <Folder Include="data\node_modules\appjs\examples\hello-world" />
+    <Folder Include="data\node_modules\appjs\examples\hello-world\content" />
+    <Folder Include="data\node_modules\appjs\examples\hello-world\content\icons" />
+    <Folder Include="data\node_modules\appjs\lib" />
+    <Folder Include="data\node_modules\appjs\lib\router" />
+    <Folder Include="data\node_modules\appjs-win32" />
+    <Folder Include="data\node_modules\mime" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsTools.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:48022/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost:1337</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

@@ -1,0 +1,180 @@
+﻿[{ "year" : "2013" , "level" : "" , "type" : "A2" , "band" : "1" , "apsl" : "7.50" , "apsh" : "8.01" , "bmark" : "126.67" , "gcse" : "7.5-8.0" }
+,{ "year" : "2013" , "level" : "" , "type" : "A2" , "band" : "2" , "apsl" : "7.00" , "apsh" : "7.50" , "bmark" : "114.82" , "gcse" : "7.0-<7.5" }
+,{ "year" : "2013" , "level" : "" , "type" : "A2" , "band" : "3" , "apsl" : "6.70" , "apsh" : "7.00" , "bmark" : "106.67" , "gcse" : "6.7-<7.0" }
+,{ "year" : "2013" , "level" : "" , "type" : "A2" , "band" : "4" , "apsl" : "6.40" , "apsh" : "6.70" , "bmark" : "100.00" , "gcse" : "6.4-<6.7" }
+,{ "year" : "2013" , "level" : "" , "type" : "A2" , "band" : "5" , "apsl" : "6.10" , "apsh" : "6.40" , "bmark" : "93.06" , "gcse" : "6.1-<6.4" }
+,{ "year" : "2013" , "level" : "" , "type" : "A2" , "band" : "6" , "apsl" : "5.80" , "apsh" : "6.10" , "bmark" : "86.92" , "gcse" : "5.8-<6.1" }
+,{ "year" : "2013" , "level" : "" , "type" : "A2" , "band" : "7" , "apsl" : "5.50" , "apsh" : "5.80" , "bmark" : "81.79" , "gcse" : "5.5-<5.8" }
+,{ "year" : "2013" , "level" : "" , "type" : "A2" , "band" : "8" , "apsl" : "5.20" , "apsh" : "5.50" , "bmark" : "76.52" , "gcse" : "5.2-<5.5" }
+,{ "year" : "2013" , "level" : "" , "type" : "A2" , "band" : "9" , "apsl" : "4.70" , "apsh" : "5.20" , "bmark" : "71.11" , "gcse" : "4.7-<5.2" }
+,{ "year" : "2013" , "level" : "" , "type" : "A2" , "band" : "10" , "apsl" : "4.00" , "apsh" : "4.70" , "bmark" : "66.05" , "gcse" : "4.0-<4.7" }
+,{ "year" : "2013" , "level" : "" , "type" : "A2" , "band" : "11" , "apsl" : "0.01" , "apsh" : "4.00" , "bmark" : "65.00" , "gcse" : "0.0-<4.0" }
+,{ "year" : "2013" , "level" : "" , "type" : "A2" , "band" : "12" , "apsl" : "0.00" , "apsh" : "0.01" , "bmark" : "0.00" , "gcse" : "0.0" }
+,{ "year" : "2013" , "level" : "" , "type" : "A2 D" , "band" : "1" , "apsl" : "7.50" , "apsh" : "8.01" , "bmark" : "253.34" , "gcse" : "7.5-8.0" }
+,{ "year" : "2013" , "level" : "" , "type" : "A2 D" , "band" : "2" , "apsl" : "7.00" , "apsh" : "7.50" , "bmark" : "229.64" , "gcse" : "7.0-<7.5" }
+,{ "year" : "2013" , "level" : "" , "type" : "A2 D" , "band" : "3" , "apsl" : "6.70" , "apsh" : "7.00" , "bmark" : "213.34" , "gcse" : "6.7-<7.0" }
+,{ "year" : "2013" , "level" : "" , "type" : "A2 D" , "band" : "4" , "apsl" : "6.40" , "apsh" : "6.70" , "bmark" : "200.00" , "gcse" : "6.4-<6.7" }
+,{ "year" : "2013" , "level" : "" , "type" : "A2 D" , "band" : "5" , "apsl" : "6.10" , "apsh" : "6.40" , "bmark" : "186.12" , "gcse" : "6.1-<6.4" }
+,{ "year" : "2013" , "level" : "" , "type" : "A2 D" , "band" : "6" , "apsl" : "5.80" , "apsh" : "6.10" , "bmark" : "173.84" , "gcse" : "5.8-<6.1" }
+,{ "year" : "2013" , "level" : "" , "type" : "A2 D" , "band" : "7" , "apsl" : "5.50" , "apsh" : "5.80" , "bmark" : "163.58" , "gcse" : "5.5-<5.8" }
+,{ "year" : "2013" , "level" : "" , "type" : "A2 D" , "band" : "8" , "apsl" : "5.20" , "apsh" : "5.50" , "bmark" : "153.04" , "gcse" : "5.2-<5.5" }
+,{ "year" : "2013" , "level" : "" , "type" : "A2 D" , "band" : "9" , "apsl" : "4.70" , "apsh" : "5.20" , "bmark" : "142.22" , "gcse" : "4.7-<5.2" }
+,{ "year" : "2013" , "level" : "" , "type" : "A2 D" , "band" : "10" , "apsl" : "4.00" , "apsh" : "4.70" , "bmark" : "132.10" , "gcse" : "4.0-<4.7" }
+,{ "year" : "2013" , "level" : "" , "type" : "A2 D" , "band" : "11" , "apsl" : "0.01" , "apsh" : "4.00" , "bmark" : "130.00" , "gcse" : "0.0-<4.0" }
+,{ "year" : "2013" , "level" : "" , "type" : "A2 D" , "band" : "12" , "apsl" : "0.00" , "apsh" : "0.01" , "bmark" : "0.00" , "gcse" : "0.0" }
+,{ "year" : "2013" , "level" : "" , "type" : "A2 S" , "band" : "1" , "apsl" : "7.50" , "apsh" : "8.01" , "bmark" : "126.67" , "gcse" : "7.5-8.0" }
+,{ "year" : "2013" , "level" : "" , "type" : "A2 S" , "band" : "2" , "apsl" : "7.00" , "apsh" : "7.50" , "bmark" : "114.82" , "gcse" : "7.0-<7.5" }
+,{ "year" : "2013" , "level" : "" , "type" : "A2 S" , "band" : "3" , "apsl" : "6.70" , "apsh" : "7.00" , "bmark" : "106.67" , "gcse" : "6.7-<7.0" }
+,{ "year" : "2013" , "level" : "" , "type" : "A2 S" , "band" : "4" , "apsl" : "6.40" , "apsh" : "6.70" , "bmark" : "100.00" , "gcse" : "6.4-<6.7" }
+,{ "year" : "2013" , "level" : "" , "type" : "A2 S" , "band" : "5" , "apsl" : "6.10" , "apsh" : "6.40" , "bmark" : "93.06" , "gcse" : "6.1-<6.4" }
+,{ "year" : "2013" , "level" : "" , "type" : "A2 S" , "band" : "6" , "apsl" : "5.80" , "apsh" : "6.10" , "bmark" : "86.92" , "gcse" : "5.8-<6.1" }
+,{ "year" : "2013" , "level" : "" , "type" : "A2 S" , "band" : "7" , "apsl" : "5.50" , "apsh" : "5.80" , "bmark" : "81.79" , "gcse" : "5.5-<5.8" }
+,{ "year" : "2013" , "level" : "" , "type" : "A2 S" , "band" : "8" , "apsl" : "5.20" , "apsh" : "5.50" , "bmark" : "76.52" , "gcse" : "5.2-<5.5" }
+,{ "year" : "2013" , "level" : "" , "type" : "A2 S" , "band" : "9" , "apsl" : "4.70" , "apsh" : "5.20" , "bmark" : "71.11" , "gcse" : "4.7-<5.2" }
+,{ "year" : "2013" , "level" : "" , "type" : "A2 S" , "band" : "10" , "apsl" : "4.00" , "apsh" : "4.70" , "bmark" : "66.05" , "gcse" : "4.0-<4.7" }
+,{ "year" : "2013" , "level" : "" , "type" : "A2 S" , "band" : "11" , "apsl" : "0.01" , "apsh" : "4.00" , "bmark" : "65.00" , "gcse" : "0.0-<4.0" }
+,{ "year" : "2013" , "level" : "" , "type" : "A2 S" , "band" : "12" , "apsl" : "0.00" , "apsh" : "0.01" , "bmark" : "0.00" , "gcse" : "0.0" }
+,{ "year" : "2013" , "level" : "" , "type" : "AS" , "band" : "1" , "apsl" : "7.50" , "apsh" : "8.01" , "bmark" : "57.14" , "gcse" : "7.5-8.0" }
+,{ "year" : "2013" , "level" : "" , "type" : "AS" , "band" : "2" , "apsl" : "7.00" , "apsh" : "7.50" , "bmark" : "52.00" , "gcse" : "7.0-<7.5" }
+,{ "year" : "2013" , "level" : "" , "type" : "AS" , "band" : "3" , "apsl" : "6.70" , "apsh" : "7.00" , "bmark" : "47.50" , "gcse" : "6.7-<7.0" }
+,{ "year" : "2013" , "level" : "" , "type" : "AS" , "band" : "4" , "apsl" : "6.40" , "apsh" : "6.70" , "bmark" : "44.00" , "gcse" : "6.4-<6.7" }
+,{ "year" : "2013" , "level" : "" , "type" : "AS" , "band" : "5" , "apsl" : "6.10" , "apsh" : "6.40" , "bmark" : "40.00" , "gcse" : "6.1-<6.4" }
+,{ "year" : "2013" , "level" : "" , "type" : "AS" , "band" : "6" , "apsl" : "5.80" , "apsh" : "6.10" , "bmark" : "36.28" , "gcse" : "5.8-<6.1" }
+,{ "year" : "2013" , "level" : "" , "type" : "AS" , "band" : "7" , "apsl" : "5.50" , "apsh" : "5.80" , "bmark" : "33.19" , "gcse" : "5.5-<5.8" }
+,{ "year" : "2013" , "level" : "" , "type" : "AS" , "band" : "8" , "apsl" : "5.20" , "apsh" : "5.50" , "bmark" : "30.00" , "gcse" : "5.2-<5.5" }
+,{ "year" : "2013" , "level" : "" , "type" : "AS" , "band" : "9" , "apsl" : "4.70" , "apsh" : "5.20" , "bmark" : "26.83" , "gcse" : "4.7-<5.2" }
+,{ "year" : "2013" , "level" : "" , "type" : "AS" , "band" : "10" , "apsl" : "4.00" , "apsh" : "4.70" , "bmark" : "23.92" , "gcse" : "4.0-<4.7" }
+,{ "year" : "2013" , "level" : "" , "type" : "AS" , "band" : "11" , "apsl" : "0.01" , "apsh" : "4.00" , "bmark" : "25.79" , "gcse" : "0.0-<4.0" }
+,{ "year" : "2013" , "level" : "" , "type" : "AS" , "band" : "12" , "apsl" : "0.00" , "apsh" : "0.01" , "bmark" : "0.00" , "gcse" : "0.0" }
+,{ "year" : "2013" , "level" : "" , "type" : "AS D" , "band" : "1" , "apsl" : "7.50" , "apsh" : "8.01" , "bmark" : "114.28" , "gcse" : "7.5-8.0" }
+,{ "year" : "2013" , "level" : "" , "type" : "AS D" , "band" : "2" , "apsl" : "7.00" , "apsh" : "7.50" , "bmark" : "104.00" , "gcse" : "7.0-<7.5" }
+,{ "year" : "2013" , "level" : "" , "type" : "AS D" , "band" : "3" , "apsl" : "6.70" , "apsh" : "7.00" , "bmark" : "95.00" , "gcse" : "6.7-<7.0" }
+,{ "year" : "2013" , "level" : "" , "type" : "AS D" , "band" : "4" , "apsl" : "6.40" , "apsh" : "6.70" , "bmark" : "88.00" , "gcse" : "6.4-<6.7" }
+,{ "year" : "2013" , "level" : "" , "type" : "AS D" , "band" : "5" , "apsl" : "6.10" , "apsh" : "6.40" , "bmark" : "80.00" , "gcse" : "6.1-<6.4" }
+,{ "year" : "2013" , "level" : "" , "type" : "AS D" , "band" : "6" , "apsl" : "5.80" , "apsh" : "6.10" , "bmark" : "72.56" , "gcse" : "5.8-<6.1" }
+,{ "year" : "2013" , "level" : "" , "type" : "AS D" , "band" : "7" , "apsl" : "5.50" , "apsh" : "5.80" , "bmark" : "66.38" , "gcse" : "5.5-<5.8" }
+,{ "year" : "2013" , "level" : "" , "type" : "AS D" , "band" : "8" , "apsl" : "5.20" , "apsh" : "5.50" , "bmark" : "60.00" , "gcse" : "5.2-<5.5" }
+,{ "year" : "2013" , "level" : "" , "type" : "AS D" , "band" : "9" , "apsl" : "4.70" , "apsh" : "5.20" , "bmark" : "53.66" , "gcse" : "4.7-<5.2" }
+,{ "year" : "2013" , "level" : "" , "type" : "AS D" , "band" : "10" , "apsl" : "4.00" , "apsh" : "4.70" , "bmark" : "47.84" , "gcse" : "4.0-<4.7" }
+,{ "year" : "2013" , "level" : "" , "type" : "AS D" , "band" : "11" , "apsl" : "0.01" , "apsh" : "4.00" , "bmark" : "51.58" , "gcse" : "0.0-<4.0" }
+,{ "year" : "2013" , "level" : "" , "type" : "AS D" , "band" : "12" , "apsl" : "0.00" , "apsh" : "0.01" , "bmark" : "0.00" , "gcse" : "0.0" }
+,{ "year" : "2013" , "level" : "" , "type" : "AS S" , "band" : "1" , "apsl" : "7.50" , "apsh" : "8.01" , "bmark" : "57.14" , "gcse" : "7.5-8.0" }
+,{ "year" : "2013" , "level" : "" , "type" : "AS S" , "band" : "2" , "apsl" : "7.00" , "apsh" : "7.50" , "bmark" : "52.00" , "gcse" : "7.0-<7.5" }
+,{ "year" : "2013" , "level" : "" , "type" : "AS S" , "band" : "3" , "apsl" : "6.70" , "apsh" : "7.00" , "bmark" : "47.50" , "gcse" : "6.7-<7.0" }
+,{ "year" : "2013" , "level" : "" , "type" : "AS S" , "band" : "4" , "apsl" : "6.40" , "apsh" : "6.70" , "bmark" : "44.00" , "gcse" : "6.4-<6.7" }
+,{ "year" : "2013" , "level" : "" , "type" : "AS S" , "band" : "5" , "apsl" : "6.10" , "apsh" : "6.40" , "bmark" : "40.00" , "gcse" : "6.1-<6.4" }
+,{ "year" : "2013" , "level" : "" , "type" : "AS S" , "band" : "6" , "apsl" : "5.80" , "apsh" : "6.10" , "bmark" : "36.28" , "gcse" : "5.8-<6.1" }
+,{ "year" : "2013" , "level" : "" , "type" : "AS S" , "band" : "7" , "apsl" : "5.50" , "apsh" : "5.80" , "bmark" : "33.19" , "gcse" : "5.5-<5.8" }
+,{ "year" : "2013" , "level" : "" , "type" : "AS S" , "band" : "8" , "apsl" : "5.20" , "apsh" : "5.50" , "bmark" : "30.00" , "gcse" : "5.2-<5.5" }
+,{ "year" : "2013" , "level" : "" , "type" : "AS S" , "band" : "9" , "apsl" : "4.70" , "apsh" : "5.20" , "bmark" : "26.83" , "gcse" : "4.7-<5.2" }
+,{ "year" : "2013" , "level" : "" , "type" : "AS S" , "band" : "10" , "apsl" : "4.00" , "apsh" : "4.70" , "bmark" : "23.92" , "gcse" : "4.0-<4.7" }
+,{ "year" : "2013" , "level" : "" , "type" : "AS S" , "band" : "11" , "apsl" : "0.01" , "apsh" : "4.00" , "bmark" : "25.79" , "gcse" : "0.0-<4.0" }
+,{ "year" : "2013" , "level" : "" , "type" : "AS S" , "band" : "12" , "apsl" : "0.00" , "apsh" : "0.01" , "bmark" : "0.00" , "gcse" : "0.0" }
+,{ "year" : "2013" , "level" : "" , "type" : "NATAW" , "band" : "1" , "apsl" : "6.70" , "apsh" : "8.01" , "bmark" : "120.00" , "gcse" : "6.7-8.0" }
+,{ "year" : "2013" , "level" : "" , "type" : "NATAW" , "band" : "2" , "apsl" : "6.40" , "apsh" : "6.70" , "bmark" : "113.19" , "gcse" : "6.4-<6.7" }
+,{ "year" : "2013" , "level" : "" , "type" : "NATAW" , "band" : "3" , "apsl" : "6.10" , "apsh" : "6.40" , "bmark" : "110.54" , "gcse" : "6.1-<6.4" }
+,{ "year" : "2013" , "level" : "" , "type" : "NATAW" , "band" : "4" , "apsl" : "5.80" , "apsh" : "6.10" , "bmark" : "103.30" , "gcse" : "5.8-<6.1" }
+,{ "year" : "2013" , "level" : "" , "type" : "NATAW" , "band" : "5" , "apsl" : "5.50" , "apsh" : "5.80" , "bmark" : "100.00" , "gcse" : "5.5-<5.8" }
+,{ "year" : "2013" , "level" : "" , "type" : "NATAW" , "band" : "6" , "apsl" : "5.20" , "apsh" : "5.50" , "bmark" : "91.39" , "gcse" : "5.2-<5.5" }
+,{ "year" : "2013" , "level" : "" , "type" : "NATAW" , "band" : "7" , "apsl" : "4.70" , "apsh" : "5.20" , "bmark" : "84.67" , "gcse" : "4.7-<5.2" }
+,{ "year" : "2013" , "level" : "" , "type" : "NATAW" , "band" : "8" , "apsl" : "4.30" , "apsh" : "4.70" , "bmark" : "77.33" , "gcse" : "4.3-<4.7" }
+,{ "year" : "2013" , "level" : "" , "type" : "NATAW" , "band" : "9" , "apsl" : "4.00" , "apsh" : "4.30" , "bmark" : "73.98" , "gcse" : "4.0-<4.3" }
+,{ "year" : "2013" , "level" : "" , "type" : "NATAW" , "band" : "10" , "apsl" : "3.50" , "apsh" : "4.00" , "bmark" : "73.16" , "gcse" : "3.5-<4.0" }
+,{ "year" : "2013" , "level" : "" , "type" : "NATAW" , "band" : "11" , "apsl" : "0.01" , "apsh" : "3.50" , "bmark" : "69.77" , "gcse" : "0.0-<3.5" }
+,{ "year" : "2013" , "level" : "" , "type" : "NATAW" , "band" : "12" , "apsl" : "0.00" , "apsh" : "0.01" , "bmark" : "0.00" , "gcse" : "0.0" }
+,{ "year" : "2013" , "level" : "" , "type" : "NCERT" , "band" : "1" , "apsl" : "6.70" , "apsh" : "8.01" , "bmark" : "240.00" , "gcse" : "6.7-8.0" }
+,{ "year" : "2013" , "level" : "" , "type" : "NCERT" , "band" : "2" , "apsl" : "6.40" , "apsh" : "6.70" , "bmark" : "226.38" , "gcse" : "6.4-<6.7" }
+,{ "year" : "2013" , "level" : "" , "type" : "NCERT" , "band" : "3" , "apsl" : "6.10" , "apsh" : "6.40" , "bmark" : "221.08" , "gcse" : "6.1-<6.4" }
+,{ "year" : "2013" , "level" : "" , "type" : "NCERT" , "band" : "4" , "apsl" : "5.80" , "apsh" : "6.10" , "bmark" : "206.60" , "gcse" : "5.8-<6.1" }
+,{ "year" : "2013" , "level" : "" , "type" : "NCERT" , "band" : "5" , "apsl" : "5.50" , "apsh" : "5.80" , "bmark" : "200.00" , "gcse" : "5.5-<5.8" }
+,{ "year" : "2013" , "level" : "" , "type" : "NCERT" , "band" : "6" , "apsl" : "5.20" , "apsh" : "5.50" , "bmark" : "182.78" , "gcse" : "5.2-<5.5" }
+,{ "year" : "2013" , "level" : "" , "type" : "NCERT" , "band" : "7" , "apsl" : "4.70" , "apsh" : "5.20" , "bmark" : "169.34" , "gcse" : "4.7-<5.2" }
+,{ "year" : "2013" , "level" : "" , "type" : "NCERT" , "band" : "8" , "apsl" : "4.30" , "apsh" : "4.70" , "bmark" : "154.66" , "gcse" : "4.3-<4.7" }
+,{ "year" : "2013" , "level" : "" , "type" : "NCERT" , "band" : "9" , "apsl" : "4.00" , "apsh" : "4.30" , "bmark" : "147.96" , "gcse" : "4.0-<4.3" }
+,{ "year" : "2013" , "level" : "" , "type" : "NCERT" , "band" : "10" , "apsl" : "3.50" , "apsh" : "4.00" , "bmark" : "146.32" , "gcse" : "3.5-<4.0" }
+,{ "year" : "2013" , "level" : "" , "type" : "NCERT" , "band" : "11" , "apsl" : "0.01" , "apsh" : "3.50" , "bmark" : "139.54" , "gcse" : "0.0-<3.5" }
+,{ "year" : "2013" , "level" : "" , "type" : "NCERT" , "band" : "12" , "apsl" : "0.00" , "apsh" : "0.01" , "bmark" : "0.00" , "gcse" : "0.0" }
+,{ "year" : "2013" , "level" : "" , "type" : "NDIP" , "band" : "1" , "apsl" : "6.70" , "apsh" : "8.01" , "bmark" : "360.00" , "gcse" : "6.7-8.0" }
+,{ "year" : "2013" , "level" : "" , "type" : "NDIP" , "band" : "2" , "apsl" : "6.40" , "apsh" : "6.70" , "bmark" : "339.57" , "gcse" : "6.4-<6.7" }
+,{ "year" : "2013" , "level" : "" , "type" : "NDIP" , "band" : "3" , "apsl" : "6.10" , "apsh" : "6.40" , "bmark" : "331.62" , "gcse" : "6.1-<6.4" }
+,{ "year" : "2013" , "level" : "" , "type" : "NDIP" , "band" : "4" , "apsl" : "5.80" , "apsh" : "6.10" , "bmark" : "309.90" , "gcse" : "5.8-<6.1" }
+,{ "year" : "2013" , "level" : "" , "type" : "NDIP" , "band" : "5" , "apsl" : "5.50" , "apsh" : "5.80" , "bmark" : "300.00" , "gcse" : "5.5-<5.8" }
+,{ "year" : "2013" , "level" : "" , "type" : "NDIP" , "band" : "6" , "apsl" : "5.20" , "apsh" : "5.50" , "bmark" : "274.17" , "gcse" : "5.2-<5.5" }
+,{ "year" : "2013" , "level" : "" , "type" : "NDIP" , "band" : "7" , "apsl" : "4.70" , "apsh" : "5.20" , "bmark" : "254.01" , "gcse" : "4.7-<5.2" }
+,{ "year" : "2013" , "level" : "" , "type" : "NDIP" , "band" : "8" , "apsl" : "4.30" , "apsh" : "4.70" , "bmark" : "231.99" , "gcse" : "4.3-<4.7" }
+,{ "year" : "2013" , "level" : "" , "type" : "NDIP" , "band" : "9" , "apsl" : "4.00" , "apsh" : "4.30" , "bmark" : "221.94" , "gcse" : "4.0-<4.3" }
+,{ "year" : "2013" , "level" : "" , "type" : "NDIP" , "band" : "10" , "apsl" : "3.50" , "apsh" : "4.00" , "bmark" : "219.48" , "gcse" : "3.5-<4.0" }
+,{ "year" : "2013" , "level" : "" , "type" : "NDIP" , "band" : "11" , "apsl" : "0.01" , "apsh" : "3.50" , "bmark" : "209.31" , "gcse" : "0.0-<3.5" }
+,{ "year" : "2013" , "level" : "" , "type" : "NDIP" , "band" : "12" , "apsl" : "0.00" , "apsh" : "0.01" , "bmark" : "0.00" , "gcse" : "0.0" }
+,{ "year" : "2013" , "level" : "" , "type" : "QDIP" , "band" : "1" , "apsl" : "6.70" , "apsh" : "8.01" , "bmark" : "240.00" , "gcse" : "6.7-8.0" }
+,{ "year" : "2013" , "level" : "" , "type" : "QDIP" , "band" : "2" , "apsl" : "6.40" , "apsh" : "6.70" , "bmark" : "226.38" , "gcse" : "6.4-<6.7" }
+,{ "year" : "2013" , "level" : "" , "type" : "QDIP" , "band" : "3" , "apsl" : "6.10" , "apsh" : "6.40" , "bmark" : "221.08" , "gcse" : "6.1-<6.4" }
+,{ "year" : "2013" , "level" : "" , "type" : "QDIP" , "band" : "4" , "apsl" : "5.80" , "apsh" : "6.10" , "bmark" : "206.60" , "gcse" : "5.8-<6.1" }
+,{ "year" : "2013" , "level" : "" , "type" : "QDIP" , "band" : "5" , "apsl" : "5.50" , "apsh" : "5.80" , "bmark" : "200.00" , "gcse" : "5.5-<5.8" }
+,{ "year" : "2013" , "level" : "" , "type" : "QDIP" , "band" : "6" , "apsl" : "5.20" , "apsh" : "5.50" , "bmark" : "182.78" , "gcse" : "5.2-<5.5" }
+,{ "year" : "2013" , "level" : "" , "type" : "QDIP" , "band" : "7" , "apsl" : "4.70" , "apsh" : "5.20" , "bmark" : "169.34" , "gcse" : "4.7-<5.2" }
+,{ "year" : "2013" , "level" : "" , "type" : "QDIP" , "band" : "8" , "apsl" : "4.30" , "apsh" : "4.70" , "bmark" : "154.66" , "gcse" : "4.3-<4.7" }
+,{ "year" : "2013" , "level" : "" , "type" : "QDIP" , "band" : "9" , "apsl" : "4.00" , "apsh" : "4.30" , "bmark" : "147.96" , "gcse" : "4.0-<4.3" }
+,{ "year" : "2013" , "level" : "" , "type" : "QDIP" , "band" : "10" , "apsl" : "3.50" , "apsh" : "4.00" , "bmark" : "146.32" , "gcse" : "3.5-<4.0" }
+,{ "year" : "2013" , "level" : "" , "type" : "QDIP" , "band" : "11" , "apsl" : "0.01" , "apsh" : "3.50" , "bmark" : "139.54" , "gcse" : "0.0-<3.5" }
+,{ "year" : "2013" , "level" : "" , "type" : "QDIP" , "band" : "12" , "apsl" : "0.00" , "apsh" : "0.01" , "bmark" : "0.00" , "gcse" : "0.0" }
+,{ "year" : "2013" , "level" : "" , "type" : "OCRDIP" , "band" : "1" , "apsl" : "6.70" , "apsh" : "8.01" , "bmark" : "240.00" , "gcse" : "6.7-8.0" }
+,{ "year" : "2013" , "level" : "" , "type" : "OCRDIP" , "band" : "2" , "apsl" : "6.40" , "apsh" : "6.70" , "bmark" : "226.38" , "gcse" : "6.4-<6.7" }
+,{ "year" : "2013" , "level" : "" , "type" : "OCRDIP" , "band" : "3" , "apsl" : "6.10" , "apsh" : "6.40" , "bmark" : "221.08" , "gcse" : "6.1-<6.4" }
+,{ "year" : "2013" , "level" : "" , "type" : "OCRDIP" , "band" : "4" , "apsl" : "5.80" , "apsh" : "6.10" , "bmark" : "206.60" , "gcse" : "5.8-<6.1" }
+,{ "year" : "2013" , "level" : "" , "type" : "OCRDIP" , "band" : "5" , "apsl" : "5.50" , "apsh" : "5.80" , "bmark" : "200.00" , "gcse" : "5.5-<5.8" }
+,{ "year" : "2013" , "level" : "" , "type" : "OCRDIP" , "band" : "6" , "apsl" : "5.20" , "apsh" : "5.50" , "bmark" : "182.78" , "gcse" : "5.2-<5.5" }
+,{ "year" : "2013" , "level" : "" , "type" : "OCRDIP" , "band" : "7" , "apsl" : "4.70" , "apsh" : "5.20" , "bmark" : "169.34" , "gcse" : "4.7-<5.2" }
+,{ "year" : "2013" , "level" : "" , "type" : "OCRDIP" , "band" : "8" , "apsl" : "4.30" , "apsh" : "4.70" , "bmark" : "154.66" , "gcse" : "4.3-<4.7" }
+,{ "year" : "2013" , "level" : "" , "type" : "OCRDIP" , "band" : "9" , "apsl" : "4.00" , "apsh" : "4.30" , "bmark" : "147.96" , "gcse" : "4.0-<4.3" }
+,{ "year" : "2013" , "level" : "" , "type" : "OCRDIP" , "band" : "10" , "apsl" : "3.50" , "apsh" : "4.00" , "bmark" : "146.32" , "gcse" : "3.5-<4.0" }
+,{ "year" : "2013" , "level" : "" , "type" : "OCRDIP" , "band" : "11" , "apsl" : "0.01" , "apsh" : "3.50" , "bmark" : "139.54" , "gcse" : "0.0-<3.5" }
+,{ "year" : "2013" , "level" : "" , "type" : "OCRDIP" , "band" : "12" , "apsl" : "0.00" , "apsh" : "0.01" , "bmark" : "0.00" , "gcse" : "0.0" }
+,{ "year" : "2013" , "level" : "" , "type" : "QSDP" , "band" : "1" , "apsl" : "6.70" , "apsh" : "8.01" , "bmark" : "120.00" , "gcse" : "6.7-8.0" }
+,{ "year" : "2013" , "level" : "" , "type" : "QSDP" , "band" : "2" , "apsl" : "6.40" , "apsh" : "6.70" , "bmark" : "113.19" , "gcse" : "6.4-<6.7" }
+,{ "year" : "2013" , "level" : "" , "type" : "QSDP" , "band" : "3" , "apsl" : "6.10" , "apsh" : "6.40" , "bmark" : "110.54" , "gcse" : "6.1-<6.4" }
+,{ "year" : "2013" , "level" : "" , "type" : "QSDP" , "band" : "4" , "apsl" : "5.80" , "apsh" : "6.10" , "bmark" : "103.30" , "gcse" : "5.8-<6.1" }
+,{ "year" : "2013" , "level" : "" , "type" : "QSDP" , "band" : "5" , "apsl" : "5.50" , "apsh" : "5.80" , "bmark" : "100.00" , "gcse" : "5.5-<5.8" }
+,{ "year" : "2013" , "level" : "" , "type" : "QSDP" , "band" : "6" , "apsl" : "5.20" , "apsh" : "5.50" , "bmark" : "91.39" , "gcse" : "5.2-<5.5" }
+,{ "year" : "2013" , "level" : "" , "type" : "QSDP" , "band" : "7" , "apsl" : "4.70" , "apsh" : "5.20" , "bmark" : "84.67" , "gcse" : "4.7-<5.2" }
+,{ "year" : "2013" , "level" : "" , "type" : "QSDP" , "band" : "8" , "apsl" : "4.30" , "apsh" : "4.70" , "bmark" : "77.33" , "gcse" : "4.3-<4.7" }
+,{ "year" : "2013" , "level" : "" , "type" : "QSDP" , "band" : "9" , "apsl" : "4.00" , "apsh" : "4.30" , "bmark" : "73.98" , "gcse" : "4.0-<4.3" }
+,{ "year" : "2013" , "level" : "" , "type" : "QSDP" , "band" : "10" , "apsl" : "3.50" , "apsh" : "4.00" , "bmark" : "73.16" , "gcse" : "3.5-<4.0" }
+,{ "year" : "2013" , "level" : "" , "type" : "QSDP" , "band" : "11" , "apsl" : "0.01" , "apsh" : "3.50" , "bmark" : "69.77" , "gcse" : "0.0-<3.5" }
+,{ "year" : "2013" , "level" : "" , "type" : "QSDP" , "band" : "12" , "apsl" : "0.00" , "apsh" : "0.01" , "bmark" : "0.00" , "gcse" : "0.0" }
+,{ "year" : "2013" , "level" : "" , "type" : "OCRCER" , "band" : "1" , "apsl" : "6.70" , "apsh" : "8.01" , "bmark" : "60.00" , "gcse" : "6.7-8.0" }
+,{ "year" : "2013" , "level" : "" , "type" : "OCRCER" , "band" : "2" , "apsl" : "6.40" , "apsh" : "6.70" , "bmark" : "56.60" , "gcse" : "6.4-<6.7" }
+,{ "year" : "2013" , "level" : "" , "type" : "OCRCER" , "band" : "3" , "apsl" : "6.10" , "apsh" : "6.40" , "bmark" : "55.70" , "gcse" : "6.1-<6.4" }
+,{ "year" : "2013" , "level" : "" , "type" : "OCRCER" , "band" : "4" , "apsl" : "5.80" , "apsh" : "6.10" , "bmark" : "51.65" , "gcse" : "5.8-<6.1" }
+,{ "year" : "2013" , "level" : "" , "type" : "OCRCER" , "band" : "5" , "apsl" : "5.50" , "apsh" : "5.80" , "bmark" : "50.00" , "gcse" : "5.5-<5.8" }
+,{ "year" : "2013" , "level" : "" , "type" : "OCRCER" , "band" : "6" , "apsl" : "5.20" , "apsh" : "5.50" , "bmark" : "45.70" , "gcse" : "5.2-<5.5" }
+,{ "year" : "2013" , "level" : "" , "type" : "OCRCER" , "band" : "7" , "apsl" : "4.70" , "apsh" : "5.20" , "bmark" : "42.34" , "gcse" : "4.7-<5.2" }
+,{ "year" : "2013" , "level" : "" , "type" : "OCRCER" , "band" : "8" , "apsl" : "4.30" , "apsh" : "4.70" , "bmark" : "38.67" , "gcse" : "4.3-<4.7" }
+,{ "year" : "2013" , "level" : "" , "type" : "OCRCER" , "band" : "9" , "apsl" : "4.00" , "apsh" : "4.30" , "bmark" : "36.99" , "gcse" : "4.0-<4.3" }
+,{ "year" : "2013" , "level" : "" , "type" : "OCRCER" , "band" : "10" , "apsl" : "3.50" , "apsh" : "4.00" , "bmark" : "36.58" , "gcse" : "3.5-<4.0" }
+,{ "year" : "2013" , "level" : "" , "type" : "OCRCER" , "band" : "11" , "apsl" : "0.01" , "apsh" : "3.50" , "bmark" : "34.89" , "gcse" : "0.0-<3.5" }
+,{ "year" : "2013" , "level" : "" , "type" : "OCRCER" , "band" : "12" , "apsl" : "0.00" , "apsh" : "0.01" , "bmark" : "0.00" , "gcse" : "0.0" }
+,{ "year" : "2013" , "level" : "" , "type" : "QCERT" , "band" : "1" , "apsl" : "6.70" , "apsh" : "8.01" , "bmark" : "60.00" , "gcse" : "6.7-8.0" }
+,{ "year" : "2013" , "level" : "" , "type" : "QCERT" , "band" : "2" , "apsl" : "6.40" , "apsh" : "6.70" , "bmark" : "56.60" , "gcse" : "6.4-<6.7" }
+,{ "year" : "2013" , "level" : "" , "type" : "QCERT" , "band" : "3" , "apsl" : "6.10" , "apsh" : "6.40" , "bmark" : "55.70" , "gcse" : "6.1-<6.4" }
+,{ "year" : "2013" , "level" : "" , "type" : "QCERT" , "band" : "4" , "apsl" : "5.80" , "apsh" : "6.10" , "bmark" : "51.65" , "gcse" : "5.8-<6.1" }
+,{ "year" : "2013" , "level" : "" , "type" : "QCERT" , "band" : "5" , "apsl" : "5.50" , "apsh" : "5.80" , "bmark" : "50.00" , "gcse" : "5.5-<5.8" }
+,{ "year" : "2013" , "level" : "" , "type" : "QCERT" , "band" : "6" , "apsl" : "5.20" , "apsh" : "5.50" , "bmark" : "45.70" , "gcse" : "5.2-<5.5" }
+,{ "year" : "2013" , "level" : "" , "type" : "QCERT" , "band" : "7" , "apsl" : "4.70" , "apsh" : "5.20" , "bmark" : "42.34" , "gcse" : "4.7-<5.2" }
+,{ "year" : "2013" , "level" : "" , "type" : "QCERT" , "band" : "8" , "apsl" : "4.30" , "apsh" : "4.70" , "bmark" : "38.67" , "gcse" : "4.3-<4.7" }
+,{ "year" : "2013" , "level" : "" , "type" : "QCERT" , "band" : "9" , "apsl" : "4.00" , "apsh" : "4.30" , "bmark" : "36.99" , "gcse" : "4.0-<4.3" }
+,{ "year" : "2013" , "level" : "" , "type" : "QCERT" , "band" : "10" , "apsl" : "3.50" , "apsh" : "4.00" , "bmark" : "36.58" , "gcse" : "3.5-<4.0" }
+,{ "year" : "2013" , "level" : "" , "type" : "QCERT" , "band" : "11" , "apsl" : "0.01" , "apsh" : "3.50" , "bmark" : "34.89" , "gcse" : "0.0-<3.5" }
+,{ "year" : "2013" , "level" : "" , "type" : "QCERT" , "band" : "12" , "apsl" : "0.00" , "apsh" : "0.01" , "bmark" : "0.00" , "gcse" : "0.0" }
+,{ "year" : "2013" , "level" : "" , "type" : "AS E" , "band" : "1" , "apsl" : "7.50" , "apsh" : "8.01" , "bmark" : "57.14" , "gcse" : "7.5-8.0" }
+,{ "year" : "2013" , "level" : "" , "type" : "AS E" , "band" : "2" , "apsl" : "7.00" , "apsh" : "7.50" , "bmark" : "52.00" , "gcse" : "7.0-<7.5" }
+,{ "year" : "2013" , "level" : "" , "type" : "AS E" , "band" : "3" , "apsl" : "6.70" , "apsh" : "7.00" , "bmark" : "47.50" , "gcse" : "6.7-<7.0" }
+,{ "year" : "2013" , "level" : "" , "type" : "AS E" , "band" : "4" , "apsl" : "6.40" , "apsh" : "6.70" , "bmark" : "44.00" , "gcse" : "6.4-<6.7" }
+,{ "year" : "2013" , "level" : "" , "type" : "AS E" , "band" : "5" , "apsl" : "6.10" , "apsh" : "6.40" , "bmark" : "40.00" , "gcse" : "6.1-<6.4" }
+,{ "year" : "2013" , "level" : "" , "type" : "AS E" , "band" : "6" , "apsl" : "5.80" , "apsh" : "6.10" , "bmark" : "36.28" , "gcse" : "5.8-<6.1" }
+,{ "year" : "2013" , "level" : "" , "type" : "AS E" , "band" : "7" , "apsl" : "5.50" , "apsh" : "5.80" , "bmark" : "33.19" , "gcse" : "5.5-<5.8" }
+,{ "year" : "2013" , "level" : "" , "type" : "AS E" , "band" : "8" , "apsl" : "5.20" , "apsh" : "5.50" , "bmark" : "30.00" , "gcse" : "5.2-<5.5" }
+,{ "year" : "2013" , "level" : "" , "type" : "AS E" , "band" : "9" , "apsl" : "4.70" , "apsh" : "5.20" , "bmark" : "26.83" , "gcse" : "4.7-<5.2" }
+,{ "year" : "2013" , "level" : "" , "type" : "AS E" , "band" : "10" , "apsl" : "4.00" , "apsh" : "4.70" , "bmark" : "23.92" , "gcse" : "4.0-<4.7" }
+,{ "year" : "2013" , "level" : "" , "type" : "AS E" , "band" : "11" , "apsl" : "0.01" , "apsh" : "4.00" , "bmark" : "25.79" , "gcse" : "0.0-<4.0" }
+,{ "year" : "2013" , "level" : "" , "type" : "AS E" , "band" : "12" , "apsl" : "0.00" , "apsh" : "0.01" , "bmark" : "0.00" , "gcse" : "0.0" }]

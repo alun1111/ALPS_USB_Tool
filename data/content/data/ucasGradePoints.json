@@ -1,0 +1,107 @@
+﻿[{ "type" : "A2" , "gradetyp" : "A1" , "grade" : "A*" , "altgrade" : "*" , "altgrade2" : "" , "points" : "140" , "apoints" : "140" , "order" : "1" }
+,{ "type" : "A2" , "gradetyp" : "A1" , "grade" : "A" , "altgrade" : "" , "altgrade2" : "" , "points" : "120" , "apoints" : "120" , "order" : "2" }
+,{ "type" : "A2" , "gradetyp" : "A1" , "grade" : "B" , "altgrade" : "" , "altgrade2" : "" , "points" : "100" , "apoints" : "100" , "order" : "3" }
+,{ "type" : "A2" , "gradetyp" : "A1" , "grade" : "C" , "altgrade" : "" , "altgrade2" : "" , "points" : "80" , "apoints" : "80" , "order" : "4" }
+,{ "type" : "A2" , "gradetyp" : "A1" , "grade" : "D" , "altgrade" : "" , "altgrade2" : "" , "points" : "60" , "apoints" : "60" , "order" : "5" }
+,{ "type" : "A2" , "gradetyp" : "A1" , "grade" : "E" , "altgrade" : "" , "altgrade2" : "" , "points" : "40" , "apoints" : "40" , "order" : "6" }
+,{ "type" : "A2" , "gradetyp" : "A1" , "grade" : "U" , "altgrade" : "Q" , "altgrade2" : "X" , "points" : "0" , "apoints" : "0" , "order" : "7" }
+,{ "type" : "A2 D" , "gradetyp" : "A2" , "grade" : "A*A*" , "altgrade" : "**" , "altgrade2" : "" , "points" : "280" , "apoints" : "280" , "order" : "10" }
+,{ "type" : "A2 D" , "gradetyp" : "A2" , "grade" : "A*A" , "altgrade" : "*A" , "altgrade2" : "" , "points" : "260" , "apoints" : "260" , "order" : "11" }
+,{ "type" : "A2 D" , "gradetyp" : "A2" , "grade" : "AA" , "altgrade" : "" , "altgrade2" : "" , "points" : "240" , "apoints" : "240" , "order" : "12" }
+,{ "type" : "A2 D" , "gradetyp" : "A2" , "grade" : "AB" , "altgrade" : "" , "altgrade2" : "" , "points" : "220" , "apoints" : "220" , "order" : "13" }
+,{ "type" : "A2 D" , "gradetyp" : "A2" , "grade" : "BB" , "altgrade" : "" , "altgrade2" : "" , "points" : "200" , "apoints" : "200" , "order" : "14" }
+,{ "type" : "A2 D" , "gradetyp" : "A2" , "grade" : "BC" , "altgrade" : "" , "altgrade2" : "" , "points" : "180" , "apoints" : "180" , "order" : "15" }
+,{ "type" : "A2 D" , "gradetyp" : "A2" , "grade" : "CC" , "altgrade" : "" , "altgrade2" : "" , "points" : "160" , "apoints" : "160" , "order" : "16" }
+,{ "type" : "A2 D" , "gradetyp" : "A2" , "grade" : "CD" , "altgrade" : "" , "altgrade2" : "" , "points" : "140" , "apoints" : "140" , "order" : "17" }
+,{ "type" : "A2 D" , "gradetyp" : "A2" , "grade" : "DD" , "altgrade" : "" , "altgrade2" : "" , "points" : "120" , "apoints" : "120" , "order" : "18" }
+,{ "type" : "A2 D" , "gradetyp" : "A2" , "grade" : "DE" , "altgrade" : "" , "altgrade2" : "" , "points" : "100" , "apoints" : "100" , "order" : "19" }
+,{ "type" : "A2 D" , "gradetyp" : "A2" , "grade" : "EE" , "altgrade" : "" , "altgrade2" : "" , "points" : "80" , "apoints" : "80" , "order" : "20" }
+,{ "type" : "A2 D" , "gradetyp" : "A2" , "grade" : "U" , "altgrade" : "Q" , "altgrade2" : "X" , "points" : "0" , "apoints" : "0" , "order" : "21" }
+,{ "type" : "A2 S" , "gradetyp" : "A1" , "grade" : "A*" , "altgrade" : "*" , "altgrade2" : "" , "points" : "140" , "apoints" : "140" , "order" : "30" }
+,{ "type" : "A2 S" , "gradetyp" : "A1" , "grade" : "A" , "altgrade" : "" , "altgrade2" : "" , "points" : "120" , "apoints" : "120" , "order" : "31" }
+,{ "type" : "A2 S" , "gradetyp" : "A1" , "grade" : "B" , "altgrade" : "" , "altgrade2" : "" , "points" : "100" , "apoints" : "100" , "order" : "32" }
+,{ "type" : "A2 S" , "gradetyp" : "A1" , "grade" : "C" , "altgrade" : "" , "altgrade2" : "" , "points" : "80" , "apoints" : "80" , "order" : "33" }
+,{ "type" : "A2 S" , "gradetyp" : "A1" , "grade" : "D" , "altgrade" : "" , "altgrade2" : "" , "points" : "60" , "apoints" : "60" , "order" : "34" }
+,{ "type" : "A2 S" , "gradetyp" : "A1" , "grade" : "E" , "altgrade" : "" , "altgrade2" : "" , "points" : "40" , "apoints" : "40" , "order" : "35" }
+,{ "type" : "A2 S" , "gradetyp" : "A1" , "grade" : "U" , "altgrade" : "Q" , "altgrade2" : "X" , "points" : "0" , "apoints" : "0" , "order" : "36" }
+,{ "type" : "AS" , "gradetyp" : "A1" , "grade" : "A" , "altgrade" : "" , "altgrade2" : "" , "points" : "60" , "apoints" : "60" , "order" : "40" }
+,{ "type" : "AS" , "gradetyp" : "A1" , "grade" : "B" , "altgrade" : "" , "altgrade2" : "" , "points" : "50" , "apoints" : "50" , "order" : "41" }
+,{ "type" : "AS" , "gradetyp" : "A1" , "grade" : "C" , "altgrade" : "" , "altgrade2" : "" , "points" : "40" , "apoints" : "40" , "order" : "42" }
+,{ "type" : "AS" , "gradetyp" : "A1" , "grade" : "D" , "altgrade" : "" , "altgrade2" : "" , "points" : "30" , "apoints" : "30" , "order" : "43" }
+,{ "type" : "AS" , "gradetyp" : "A1" , "grade" : "E" , "altgrade" : "" , "altgrade2" : "" , "points" : "20" , "apoints" : "20" , "order" : "44" }
+,{ "type" : "AS" , "gradetyp" : "A1" , "grade" : "U" , "altgrade" : "Q" , "altgrade2" : "X" , "points" : "0" , "apoints" : "0" , "order" : "45" }
+,{ "type" : "AS D" , "gradetyp" : "A2" , "grade" : "AA" , "altgrade" : "" , "altgrade2" : "" , "points" : "120" , "apoints" : "120" , "order" : "50" }
+,{ "type" : "AS D" , "gradetyp" : "A2" , "grade" : "AB" , "altgrade" : "" , "altgrade2" : "" , "points" : "110" , "apoints" : "110" , "order" : "51" }
+,{ "type" : "AS D" , "gradetyp" : "A2" , "grade" : "BB" , "altgrade" : "" , "altgrade2" : "" , "points" : "100" , "apoints" : "100" , "order" : "52" }
+,{ "type" : "AS D" , "gradetyp" : "A2" , "grade" : "BC" , "altgrade" : "" , "altgrade2" : "" , "points" : "90" , "apoints" : "90" , "order" : "53" }
+,{ "type" : "AS D" , "gradetyp" : "A2" , "grade" : "CC" , "altgrade" : "" , "altgrade2" : "" , "points" : "80" , "apoints" : "80" , "order" : "54" }
+,{ "type" : "AS D" , "gradetyp" : "A2" , "grade" : "CD" , "altgrade" : "" , "altgrade2" : "" , "points" : "70" , "apoints" : "70" , "order" : "55" }
+,{ "type" : "AS D" , "gradetyp" : "A2" , "grade" : "DD" , "altgrade" : "" , "altgrade2" : "" , "points" : "60" , "apoints" : "60" , "order" : "56" }
+,{ "type" : "AS D" , "gradetyp" : "A2" , "grade" : "DE" , "altgrade" : "" , "altgrade2" : "" , "points" : "50" , "apoints" : "50" , "order" : "57" }
+,{ "type" : "AS D" , "gradetyp" : "A2" , "grade" : "EE" , "altgrade" : "" , "altgrade2" : "" , "points" : "40" , "apoints" : "40" , "order" : "58" }
+,{ "type" : "AS D" , "gradetyp" : "A2" , "grade" : "U" , "altgrade" : "Q" , "altgrade2" : "X" , "points" : "0" , "apoints" : "0" , "order" : "59" }
+,{ "type" : "AS S" , "gradetyp" : "A1" , "grade" : "A" , "altgrade" : "" , "altgrade2" : "" , "points" : "60" , "apoints" : "60" , "order" : "70" }
+,{ "type" : "AS S" , "gradetyp" : "A1" , "grade" : "B" , "altgrade" : "" , "altgrade2" : "" , "points" : "50" , "apoints" : "50" , "order" : "71" }
+,{ "type" : "AS S" , "gradetyp" : "A1" , "grade" : "C" , "altgrade" : "" , "altgrade2" : "" , "points" : "40" , "apoints" : "40" , "order" : "72" }
+,{ "type" : "AS S" , "gradetyp" : "A1" , "grade" : "D" , "altgrade" : "" , "altgrade2" : "" , "points" : "30" , "apoints" : "30" , "order" : "73" }
+,{ "type" : "AS S" , "gradetyp" : "A1" , "grade" : "E" , "altgrade" : "" , "altgrade2" : "" , "points" : "20" , "apoints" : "20" , "order" : "74" }
+,{ "type" : "AS S" , "gradetyp" : "A1" , "grade" : "U" , "altgrade" : "Q" , "altgrade2" : "X" , "points" : "0" , "apoints" : "0" , "order" : "75" }
+,{ "type" : "NATAW" , "gradetyp" : "B1" , "grade" : "D" , "altgrade" : "DS" , "altgrade2" : "" , "points" : "120" , "apoints" : "120" , "order" : "80" }
+,{ "type" : "NATAW" , "gradetyp" : "B1" , "grade" : "M" , "altgrade" : "ME" , "altgrade2" : "" , "points" : "80" , "apoints" : "80" , "order" : "81" }
+,{ "type" : "NATAW" , "gradetyp" : "B1" , "grade" : "P" , "altgrade" : "PA" , "altgrade2" : "" , "points" : "40" , "apoints" : "40" , "order" : "82" }
+,{ "type" : "NATAW" , "gradetyp" : "B1" , "grade" : "F" , "altgrade" : "FL" , "altgrade2" : "" , "points" : "0" , "apoints" : "0" , "order" : "83" }
+,{ "type" : "NCERT" , "gradetyp" : "B2" , "grade" : "DD" , "altgrade" : "" , "altgrade2" : "" , "points" : "240" , "apoints" : "240" , "order" : "90" }
+,{ "type" : "NCERT" , "gradetyp" : "B2" , "grade" : "DM" , "altgrade" : "" , "altgrade2" : "" , "points" : "200" , "apoints" : "200" , "order" : "91" }
+,{ "type" : "NCERT" , "gradetyp" : "B2" , "grade" : "MM" , "altgrade" : "" , "altgrade2" : "" , "points" : "160" , "apoints" : "160" , "order" : "92" }
+,{ "type" : "NCERT" , "gradetyp" : "B2" , "grade" : "MP" , "altgrade" : "" , "altgrade2" : "" , "points" : "120" , "apoints" : "120" , "order" : "93" }
+,{ "type" : "NCERT" , "gradetyp" : "B2" , "grade" : "PP" , "altgrade" : "" , "altgrade2" : "" , "points" : "80" , "apoints" : "80" , "order" : "94" }
+,{ "type" : "NCERT" , "gradetyp" : "B2" , "grade" : "F" , "altgrade" : "FL" , "altgrade2" : "" , "points" : "0" , "apoints" : "0" , "order" : "95" }
+,{ "type" : "OCRCER" , "gradetyp" : "C1" , "grade" : "D*" , "altgrade" : "DS*" , "altgrade2" : "*" , "points" : "160" , "apoints" : "120" , "order" : "100" }
+,{ "type" : "OCRCER" , "gradetyp" : "C1" , "grade" : "D" , "altgrade" : "DS" , "altgrade2" : "" , "points" : "120" , "apoints" : "120" , "order" : "101" }
+,{ "type" : "OCRCER" , "gradetyp" : "C1" , "grade" : "M" , "altgrade" : "ME" , "altgrade2" : "" , "points" : "80" , "apoints" : "80" , "order" : "102" }
+,{ "type" : "OCRCER" , "gradetyp" : "C1" , "grade" : "P" , "altgrade" : "PA" , "altgrade2" : "" , "points" : "40" , "apoints" : "40" , "order" : "103" }
+,{ "type" : "OCRCER" , "gradetyp" : "C1" , "grade" : "F" , "altgrade" : "FL" , "altgrade2" : "" , "points" : "0" , "apoints" : "0" , "order" : "104" }
+,{ "type" : "OCRDIP" , "gradetyp" : "O1" , "grade" : "D2" , "altgrade" : "D*D*" , "altgrade2" : "DS*DS*" , "points" : "320" , "apoints" : "240" , "order" : "110" }
+,{ "type" : "OCRDIP" , "gradetyp" : "O1" , "grade" : "D" , "altgrade" : "DD" , "altgrade2" : "" , "points" : "240" , "apoints" : "240" , "order" : "111" }
+,{ "type" : "OCRDIP" , "gradetyp" : "O1" , "grade" : "M1" , "altgrade" : "DM" , "altgrade2" : "" , "points" : "200" , "apoints" : "200" , "order" : "112" }
+,{ "type" : "OCRDIP" , "gradetyp" : "O1" , "grade" : "M2" , "altgrade" : "MM" , "altgrade2" : "" , "points" : "160" , "apoints" : "160" , "order" : "113" }
+,{ "type" : "OCRDIP" , "gradetyp" : "O1" , "grade" : "P1" , "altgrade" : "MM" , "altgrade2" : "" , "points" : "160" , "apoints" : "160" , "order" : "114" }
+,{ "type" : "OCRDIP" , "gradetyp" : "O1" , "grade" : "P2" , "altgrade" : "MP" , "altgrade2" : "" , "points" : "120" , "apoints" : "120" , "order" : "115" }
+,{ "type" : "OCRDIP" , "gradetyp" : "O1" , "grade" : "P3" , "altgrade" : "PP" , "altgrade2" : "" , "points" : "80" , "apoints" : "80" , "order" : "116" }
+,{ "type" : "OCRDIP" , "gradetyp" : "O1" , "grade" : "F" , "altgrade" : "FL" , "altgrade2" : "" , "points" : "0" , "apoints" : "0" , "order" : "117" }
+,{ "type" : "QDIP" , "gradetyp" : "D2" , "grade" : "D*D*" , "altgrade" : "**" , "altgrade2" : "" , "points" : "280" , "apoints" : "280" , "order" : "120" }
+,{ "type" : "QDIP" , "gradetyp" : "D2" , "grade" : "D*D" , "altgrade" : "*D" , "altgrade2" : "" , "points" : "260" , "apoints" : "260" , "order" : "121" }
+,{ "type" : "QDIP" , "gradetyp" : "D2" , "grade" : "DD" , "altgrade" : "" , "altgrade2" : "" , "points" : "240" , "apoints" : "240" , "order" : "122" }
+,{ "type" : "QDIP" , "gradetyp" : "D2" , "grade" : "DM" , "altgrade" : "" , "altgrade2" : "" , "points" : "200" , "apoints" : "200" , "order" : "123" }
+,{ "type" : "QDIP" , "gradetyp" : "D2" , "grade" : "MM" , "altgrade" : "" , "altgrade2" : "" , "points" : "160" , "apoints" : "160" , "order" : "124" }
+,{ "type" : "QDIP" , "gradetyp" : "D2" , "grade" : "MP" , "altgrade" : "" , "altgrade2" : "" , "points" : "120" , "apoints" : "120" , "order" : "125" }
+,{ "type" : "QDIP" , "gradetyp" : "D2" , "grade" : "PP" , "altgrade" : "" , "altgrade2" : "" , "points" : "80" , "apoints" : "80" , "order" : "126" }
+,{ "type" : "QDIP" , "gradetyp" : "D2" , "grade" : "F" , "altgrade" : "FL" , "altgrade2" : "" , "points" : "0" , "apoints" : "0" , "order" : "127" }
+,{ "type" : "QSDP" , "gradetyp" : "S1" , "grade" : "D*" , "altgrade" : "DS*" , "altgrade2" : "*" , "points" : "140" , "apoints" : "140" , "order" : "130" }
+,{ "type" : "QSDP" , "gradetyp" : "S1" , "grade" : "D" , "altgrade" : "DS" , "altgrade2" : "" , "points" : "120" , "apoints" : "120" , "order" : "131" }
+,{ "type" : "QSDP" , "gradetyp" : "S1" , "grade" : "M" , "altgrade" : "ME" , "altgrade2" : "" , "points" : "80" , "apoints" : "80" , "order" : "132" }
+,{ "type" : "QSDP" , "gradetyp" : "S1" , "grade" : "P" , "altgrade" : "PA" , "altgrade2" : "" , "points" : "40" , "apoints" : "40" , "order" : "133" }
+,{ "type" : "QSDP" , "gradetyp" : "S1" , "grade" : "F" , "altgrade" : "FL" , "altgrade2" : "" , "points" : "0" , "apoints" : "0" , "order" : "134" }
+,{ "type" : "NDIP" , "gradetyp" : "D3" , "grade" : "D*D*D*" , "altgrade" : "***" , "altgrade2" : "" , "points" : "420" , "apoints" : "420" , "order" : "140" }
+,{ "type" : "NDIP" , "gradetyp" : "D3" , "grade" : "D*D*D" , "altgrade" : "**D" , "altgrade2" : "" , "points" : "400" , "apoints" : "400" , "order" : "141" }
+,{ "type" : "NDIP" , "gradetyp" : "D3" , "grade" : "D*DD" , "altgrade" : "*DD" , "altgrade2" : "" , "points" : "380" , "apoints" : "380" , "order" : "142" }
+,{ "type" : "NDIP" , "gradetyp" : "D3" , "grade" : "DDD" , "altgrade" : "DDD" , "altgrade2" : "" , "points" : "360" , "apoints" : "360" , "order" : "143" }
+,{ "type" : "NDIP" , "gradetyp" : "D3" , "grade" : "DDM" , "altgrade" : "DDM" , "altgrade2" : "" , "points" : "320" , "apoints" : "320" , "order" : "144" }
+,{ "type" : "NDIP" , "gradetyp" : "D3" , "grade" : "DMM" , "altgrade" : "DMM" , "altgrade2" : "" , "points" : "280" , "apoints" : "280" , "order" : "145" }
+,{ "type" : "NDIP" , "gradetyp" : "D3" , "grade" : "MMM" , "altgrade" : "MMM" , "altgrade2" : "" , "points" : "240" , "apoints" : "240" , "order" : "146" }
+,{ "type" : "NDIP" , "gradetyp" : "D3" , "grade" : "MMP" , "altgrade" : "MMP" , "altgrade2" : "" , "points" : "200" , "apoints" : "200" , "order" : "147" }
+,{ "type" : "NDIP" , "gradetyp" : "D3" , "grade" : "MPP" , "altgrade" : "MPP" , "altgrade2" : "" , "points" : "160" , "apoints" : "160" , "order" : "148" }
+,{ "type" : "NDIP" , "gradetyp" : "D3" , "grade" : "PPP" , "altgrade" : "PPP" , "altgrade2" : "" , "points" : "120" , "apoints" : "120" , "order" : "148" }
+,{ "type" : "NDIP" , "gradetyp" : "D3" , "grade" : "F" , "altgrade" : "FL" , "altgrade2" : "" , "points" : "0" , "apoints" : "0" , "order" : "150" }
+,{ "type" : "QCERT" , "gradetyp" : "S1" , "grade" : "D*" , "altgrade" : "DS*" , "altgrade2" : "*" , "points" : "70" , "apoints" : "70" , "order" : "160" }
+,{ "type" : "QCERT" , "gradetyp" : "S1" , "grade" : "DS" , "altgrade" : "D" , "altgrade2" : "" , "points" : "60" , "apoints" : "60" , "order" : "161" }
+,{ "type" : "QCERT" , "gradetyp" : "S1" , "grade" : "ME" , "altgrade" : "M" , "altgrade2" : "" , "points" : "40" , "apoints" : "40" , "order" : "162" }
+,{ "type" : "QCERT" , "gradetyp" : "S1" , "grade" : "PA" , "altgrade" : "P" , "altgrade2" : "" , "points" : "20" , "apoints" : "20" , "order" : "163" }
+,{ "type" : "QCERT" , "gradetyp" : "S1" , "grade" : "F" , "altgrade" : "FL" , "altgrade2" : "" , "points" : "0" , "apoints" : "0" , "order" : "164" }
+,{ "type" : "AS E" , "gradetyp" : "A1" , "grade" : "A*" , "altgrade" : "*" , "altgrade2" : "" , "points" : "60" , "apoints" : "60" , "order" : "170" }
+,{ "type" : "AS E" , "gradetyp" : "A1" , "grade" : "B" , "altgrade" : "" , "altgrade2" : "" , "points" : "50" , "apoints" : "50" , "order" : "172" }
+,{ "type" : "AS E" , "gradetyp" : "A1" , "grade" : "C" , "altgrade" : "" , "altgrade2" : "" , "points" : "40" , "apoints" : "40" , "order" : "173" }
+,{ "type" : "AS E" , "gradetyp" : "A1" , "grade" : "D" , "altgrade" : "" , "altgrade2" : "" , "points" : "30" , "apoints" : "30" , "order" : "174" }
+,{ "type" : "AS E" , "gradetyp" : "A1" , "grade" : "E" , "altgrade" : "" , "altgrade2" : "" , "points" : "20" , "apoints" : "20" , "order" : "175" }
+,{ "type" : "AS E" , "gradetyp" : "A1" , "grade" : "U" , "altgrade" : "Q" , "altgrade2" : "X" , "points" : "0" , "apoints" : "0" , "order" : "176" }
+,{ "type" : "AS E" , "gradetyp" : "A1" , "grade" : "A" , "altgrade" : "" , "altgrade2" : "" , "points" : "60" , "apoints" : "60" , "order" : "171" }]
